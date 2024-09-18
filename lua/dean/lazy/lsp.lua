@@ -28,6 +28,7 @@ return {
             ensure_installed = {
                 "lua_ls",
                 "pylsp",
+                "clangd",
             },
             handlers = {
                 function(server_name)
